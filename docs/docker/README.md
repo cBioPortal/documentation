@@ -120,7 +120,7 @@ The value of the API key is configured in the _portal.properties_ file. You can 
 
 The properties file can be found in `./config/portal.properties`. Which was set up when running `init.sh`.
 
-This properties file allows you to customize your instance of cBioPortal with e.g. custom logos, or point the cBioPortal container to e.g. use an external mysql database. See for a the [properties](https://docs.cbioportal.org/2.3-customization/portal.properties-reference) documentation for a comprehensive overview.
+This properties file allows you to customize your instance of cBioPortal with e.g. custom logos, or point the cBioPortal container to e.g. use an external mysql database. See the [properties](../Customizing-your-instance-of-cBioPortal.md) documentation for a comprehensive overview.
 
 If you would like to enable OncoKB see [OncoKB data access](../OncoKB-Data-Access.md) for 
 how to obtain a data access token. After obtaining a valid token use:
