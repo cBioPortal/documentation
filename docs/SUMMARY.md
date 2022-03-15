@@ -4,7 +4,7 @@
 * [About Us](About-Us.md)
 * [List of RFCs](RFC-List.md)
 
-## Sections
+# Sections
 
 * [Deployment](deployment/README.md)
   * [Architecture overview](Architecture-Overview.md)
