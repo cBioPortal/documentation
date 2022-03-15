@@ -1,6 +1,6 @@
 # Building from Source
 
-## [Building with Maven](building-with-maven)
+## Building with Maven
 
 While building, you must point the environment variable `PORTAL_HOME` to
 the root directory containing the portal source code.
