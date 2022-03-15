@@ -5,4 +5,5 @@ structure:
   summary: SUMMARY.md
 
 redirects:
-  5.1-data-loading/data-loading/file-formats: sections/deployment/data-loading/file-formats
+  5.1-data-loading/data-loading/file-formats: deployment/data-loading/file-formats
+  2.1-deployment/architecture-overview:
