@@ -100,7 +100,7 @@ java \
     portal/target/cbioportal.war
 ```
 
-Change `CHOOSE_DESIRED_AUTHENTICATION_METHOD` to one of `googleplus`, `saml`, `openid`, `ad`, `ldap`. The various methods of authentication are described in the [Authorization and Authentication](sections/cbioportal-deployment/authorization-and-authentication/) section.
+Change `CHOOSE_DESIRED_AUTHENTICATION_METHOD` to one of `googleplus`, `saml`, `openid`, `ad`, `ldap`. The various methods of authentication are described in the [Authorization and Authentication](cbioportal-deployment/authorization-and-authentication/) section.
 
 ### Property configuration
 

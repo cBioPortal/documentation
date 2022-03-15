@@ -4,18 +4,18 @@ Welcome to the documentation for cBioPortal! Below you can find an index of all 
 
 We also maintain an active [list of RFCs (Requests for Comments)](RFC-List.md) where we describe new features and solicit community feedback.
 
-{% content-ref url="sections/deployment/" %}
-[deployment](sections/deployment/)
+{% content-ref url="deployment/" %}
+[deployment](deployment/)
 {% endcontent-ref %}
 
-{% content-ref url="sections/development/" %}
-[development](sections/development/)
+{% content-ref url="development/" %}
+[development](development/)
 {% endcontent-ref %}
 
-{% content-ref url="sections/user-guide/" %}
-[user-guide](sections/user-guide/)
+{% content-ref url="user-guide/" %}
+[user-guide](user-guide/)
 {% endcontent-ref %}
 
-{% content-ref url="sections/web-api-and-clients/" %}
-[web-api-and-clients](sections/web-api-and-clients/)
+{% content-ref url="web-api-and-clients/" %}
+[web-api-and-clients](web-api-and-clients/)
 {% endcontent-ref %}
