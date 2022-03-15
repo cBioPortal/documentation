@@ -1,0 +1,8 @@
+root: ./docs
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  5.1-data-loading/data-loading/file-formats: sections/deployment/data-loading/file-formats
