@@ -6,9 +6,9 @@ If your instance of the cBioPortal will not require [user authorization](User-Au
 
 This document contains information for both cBioPortal administrators and users. For administrators, this document describes how to configure an instance of the cBioPortal with data access token support. For users, this document provides details about how to obtain a data access token and present it with a web service request (see [Using Data Access Tokens](Authenticating-Users-via-Tokens.md#using-data-access-tokens)).
 
-## [Configuring Data Access Tokens within cBioPortal](configuring-data-access-tokens-within-cbioportal/)
+## Configuring Data Access Tokens within cBioPortal
 
-### [Implementations](implementations/)
+### Implementations
 
 The cBioPortal codebase comes with three different data access token implementations, each of which come with strengths and weaknesses.
 
@@ -111,7 +111,7 @@ The following properties must be present in portal.properties in order to allow 
 * **Permissible Values**: `::`-separated strings
 * **Default Value**: resource\_access::cbioportal::roles
 
-## [Using Data Access Tokens](using-data-access-tokens/)
+## Using Data Access Tokens
 
 To directly access the web service of a cBioPortal instance which requires user login, clients will need to obtain a data access token and present this token with each web service request. To obtain a data access token, login to the cBioPortal and then choose “Data Access Token” from the “Logged in as…” dropdown menu located on the top-right section of the webpage (**note this menu option will not be present if the instance of the cBioPortal has not be configured to support data access tokens**):
 
