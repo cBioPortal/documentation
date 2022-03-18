@@ -3,9 +3,6 @@
 * [Home](README.md)
 * [About Us](About-Us.md)
 * [List of RFCs](RFC-List.md)
-
-# Sections
-
 * [Deployment](deployment/README.md)
   * [Architecture overview](Architecture-Overview.md)
   * [Hardware Requirements](Hardware-Requirements.md)
