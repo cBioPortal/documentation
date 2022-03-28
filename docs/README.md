@@ -4,18 +4,9 @@ Welcome to the documentation for cBioPortal! Below you can find an index of all 
 
 We also maintain an active [list of RFCs (Requests for Comments)](RFC-List.md) where we describe new features and solicit community feedback.
 
-<style>
-    .homeList {
-        display:flex;
-    }
-    .homeList img {
-        
-    }
-</style>
-
 <div class="homeList">
 
-<table>
+<table border="0">
     <tr>
          <td>
             <a href="user-guide/">
