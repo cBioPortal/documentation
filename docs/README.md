@@ -14,10 +14,21 @@ We also maintain an active [list of RFCs (Requests for Comments)](RFC-List.md) w
 </style>
 
 <div class="homeList">
-<a href="user-guide/">
-<img src="https://cdn-icons-png.flaticon.com/512/5115/5115447.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
-</a>
+
+<table>
+    <tr>
+         <td>
+            <a href="user-guide/">
+            <img src="https://cdn-icons-png.flaticon.com/512/5115/5115447.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
+            </a>
+        </td>
+        <td>
 <p>This is a some text about the thing to the right. Lets see how it does</p>
+        </td>
+    </tr>
+</table>
+
+
 </div>
 
 {% content-ref url="deployment/" %}
