@@ -3,7 +3,7 @@ The cBioPortal for Cancer Genomics was originally developed at [Memorial Sloan K
 ## Memorial Sloan Kettering Cancer Center
 * Jianjiong Gao
 * Benjamin Gross
-* S. Onur Sumer
+* Onur Sumer
 * Yichao Sun
 * Hongxin Zhang
 * Adam Abeshouse

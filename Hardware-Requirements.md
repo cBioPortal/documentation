@@ -6,8 +6,7 @@ portal. We run [cbioportal.org](https://www.cbioportal.org) on an AWS r5.xlarge
 instance with 32 GB and 4 vCPUs. The public database consumes ~50 GB of disk
 space. The site is visited by several thousands of users a day. For on-premise
 installation recommendations one can look at the AWS instance type specs:
-
-> 
+ 
 | Platform | instance type | (v)CPUs | RAM(GB) | Storage (GB) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | aws | r5.xlarge | 4 | 32 | 50 |
