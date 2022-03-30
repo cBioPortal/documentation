@@ -12,6 +12,7 @@ We also maintain an active [list of RFCs (Requests for Comments)](RFC-List.md) w
         padding-bottom:40px !important;
         vertical-align: top;
         font-size:18px;
+        color:orange;
     }
 </style>
 
