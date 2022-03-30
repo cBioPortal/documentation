@@ -1,0 +1,15 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: cBioPortal Docs
+  logo: images/cbio-logo.png
+
+ # label: Docs
+#links:
+#  - text: cBioPortal.org
+#    link: https://www.cbioportal.org
+
+favicon: images/cbio-logo.png
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
