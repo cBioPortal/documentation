@@ -46,16 +46,15 @@ We also maintain an active [list of RFCs (Requests for Comments)](RFC-List.md) w
             <a href="development/">Guide for making open source contributors to cBioPortal codebase</a>
         </td>
     </tr>
-        <tr>
-             <td>
-                <a href="web-api-and-clients/">
-                <img src="images/api.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
-                </a>
-            </td>
-            <td>
-                <a href="web-api-and-clients/">Guide to programmatic use of cBioPortal's public api via REST or clients</a>
-            </td>
-        </tr>
+    <tr>
+         <td>
+            <a href="web-api-and-clients/">
+            <img src="images/api.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
+            </a>
+        </td>
+        <td>
+            <a href="web-api-and-clients/">Guide to programmatic use of cBioPortal's public api via REST or clients</a>
+        </td>
     </tr>
 </table>
 
