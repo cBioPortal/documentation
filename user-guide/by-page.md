@@ -18,7 +18,7 @@
 
 
 #### OQL
-* Documentation [OQL](https://www.cbioportal.org/oql)
+* Documentation [OQL](/Onco-Query-Language.md)
 * Tutorial Slides: Onco Query Language (OQL) [Google slides](https://www.cbioportal.org/tutorials#oql) | [PDF](https://raw.githubusercontent.com/cBioPortal/cbioportal/master/docs/tutorials/cBioPortal%20Tutorial%205%20Onco%20Query%20Language.pdf)
 * Webinar: Expression Data Analysis [youtube.com](https://www.youtube.com/watch?v=YUxVv6pkxD4&t=1559s) | [bilibili.com](https://www.bilibili.com/video/BV1HK4y1t7dE)
 * How-To Video: Using Onco Query Language (OQL) to query based on the expression level of genes [youtube.com](https://www.youtube.com/watch?v=kHlFXw2TMzc)

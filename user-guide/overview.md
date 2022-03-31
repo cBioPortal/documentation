@@ -30,7 +30,7 @@ Short videos that show how to perform specific analyses or how to use specific p
 
 ### Documentation
 * Frequently Asked Questions [FAQ](https://www.cbioportal.org/faq)
-* Onco Query Language [OQL](https://www.cbioportal.org/oql)
+* Onco Query Language [OQL](/Onco-Query-Language.md)
 
 ### Publications
 * Cerami et al. Cancer Discovery 2012 [PubMed](http://cancerdiscovery.aacrjournals.org/content/2/5/401.abstract)

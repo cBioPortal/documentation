@@ -247,7 +247,7 @@ The normals samples RNA-Seq V2 expression data were curated from [GDC](https://g
 
 ## June 9, 2020
 
-*   **Enhancement**: using [OQL](https://www.cbioportal.org/oql#oql-modifiers) to query for mutations based on a protein position range. [example](https://www.cbioportal.org/results/mutations?Action=Submit&RPPA_SCORE_THRESHOLD=2.0&Z_SCORE_THRESHOLD=2.0&cancer_study_list=msk_impact_2017&case_set_id=msk_impact_2017_cnaseq&data_priority=0&gene_list=TP53%253AMUT_(95-288*)&geneset_list=%20&genetic_profile_ids_PROFILE_COPY_NUMBER_ALTERATION=msk_impact_2017_cna&genetic_profile_ids_PROFILE_MUTATION_EXTENDED=msk_impact_2017_mutations&profileFilter=0&tab_index=tab_visualize)
+*   **Enhancement**: using [OQL](/Onco-Query-Language.md#oql-modifiers) to query for mutations based on a protein position range. [example](https://www.cbioportal.org/results/mutations?Action=Submit&RPPA_SCORE_THRESHOLD=2.0&Z_SCORE_THRESHOLD=2.0&cancer_study_list=msk_impact_2017&case_set_id=msk_impact_2017_cnaseq&data_priority=0&gene_list=TP53%253AMUT_(95-288*)&geneset_list=%20&genetic_profile_ids_PROFILE_COPY_NUMBER_ALTERATION=msk_impact_2017_cna&genetic_profile_ids_PROFILE_MUTATION_EXTENDED=msk_impact_2017_mutations&profileFilter=0&tab_index=tab_visualize)
 ![image](https://user-images.githubusercontent.com/840895/84427197-83ce6b80-abf2-11ea-9d18-3a4f4524e545.png)
 
 *   **New Feature**: you can now send the OncoPrint data to the [OncoPrinter tool](https://www.cbioportal.org/oncoprinter) for customization.
@@ -552,7 +552,7 @@ as appear in the url of a query submitted from the homepage.
      *   [Cholangiocarcinoma (MSK, Clin Cancer Res 2018)](https://www.cbioportal.org/study?id=chol_msk_2018) *195 samples*
  *  **Updated data** for [The Metastatic Breast Cancer Project (Provisional, October 2018)](https://www.cbioportal.org/study?id=brca_mbcproject_wagle_2017) *237 samples*
 ## January 10, 2019
-* cBioPortal now supports queries for driver mutations, fusions and copy number alterations as well as germline/somatic mutations using [Onco Query Language (OQL)](https://www.cbioportal.org/oql) -- see [example](https://www.cbioportal.org/results/oncoprint?session_id=5c23ea81e4b05228701f9d44)
+* cBioPortal now supports queries for driver mutations, fusions and copy number alterations as well as germline/somatic mutations using [Onco Query Language (OQL)](/Onco-Query-Language.md) -- see [example](https://www.cbioportal.org/results/oncoprint?session_id=5c23ea81e4b05228701f9d44)
 * A new [tutorial](https://www.cbioportal.org/tutorials) explores OQL and provides examples of how OQL can be a powerful tool to refine queries.
 
 
