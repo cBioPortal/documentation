@@ -255,7 +255,7 @@ If this does not happen, see the Troubleshooting Tips  below.
 
 ### Add client for OAuth2 token-based data access
 
-With cBioPortal instances that require user authentication the API can be queried when including a data access token in the request header (see [Authenticating Users via Tokens](Authenticating-Users-via-Tokens.md)). KeyCloak can be configured as an OAuth2 authentication provider that distributes data access tokens to users and validates these tokens when used while querying the API. This feature is enabled by creating a `cbioportal_api` OpenID Connect client that has access to the user roles defined in the `cbioportal` SAML client.
+With cBioPortal instances that require user authentication the API can be queried when including a data access token in the request header (see [Authenticating Users via Tokens](/deployment/authorization-and-authentication/Authenticating-Users-via-Tokens.md)). KeyCloak can be configured as an OAuth2 authentication provider that distributes data access tokens to users and validates these tokens when used while querying the API. This feature is enabled by creating a `cbioportal_api` OpenID Connect client that has access to the user roles defined in the `cbioportal` SAML client.
 
 The step below were verified to work with Keycloak versions 4.8.3.Final and 8.0.2.
 
@@ -338,7 +338,7 @@ Enable _Full Scope_. This setting will include the user roles defined in the `cb
 | dat.oauth2.redirectUri  | _cbioportal_url_/api/data-access-token/oauth2 | _cbioportal_url_ is url up to _/api_ path |
 | dat.oauth2.jwtRolesPath  | '::'-separated path to array with user roles in JWT token returned by Keycloak | example: _resource_access::cbioportal::roles_ |
 
-More information on configuration of the cBioPortal backend can be found in [Authenticating Users via Tokens](Authenticating-Users-via-Tokens.md).
+More information on configuration of the cBioPortal backend can be found in [Authenticating Users via Tokens](/deployment/authorization-and-authentication/Authenticating-Users-via-Tokens.md).
 
 ### Troubleshooting
 
