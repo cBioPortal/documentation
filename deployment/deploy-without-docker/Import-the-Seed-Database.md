@@ -47,6 +47,4 @@ After download, the files can be unzipped by entering the following command:
 
 **Important:** Please be aware of the version of the seed database. In the [README on datahub](https://github.com/cbioportal/datahub/blob/master/seedDB/README.md), we stated which version of cBioPortal is compatible with the current seed database.
 
-If the database is older than what cBioPortal is expecting, the system will ask you (during startup or data loading) to migrate the database to a newer version. The migration process is described [here](Updating-your-cBioPortal-installation.md#running-the-migration-script).
-
-[Next Step: Deploying the Web Application](Deploying.md)
+If the database is older than what cBioPortal is expecting, the system will ask you (during startup or data loading) to migrate the database to a newer version. The migration process is described [here](/Updating-your-cBioPortal-installation.md#running-the-migration-script).

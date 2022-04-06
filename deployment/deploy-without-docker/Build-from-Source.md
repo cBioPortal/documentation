@@ -36,5 +36,3 @@ instead:
 ```
 mvn -Dexclude-redisson -DskipTests clean install
 ```
-
-[Next Step: Importing the Seed Database](Import-the-Seed-Database.md)

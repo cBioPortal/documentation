@@ -216,7 +216,7 @@ configure a group to be "default" in Keycloak, meaning new users are
 automatically added to this group when logging in for the first time.
 
 Alternatively, the Keycloak roles can correspond to the **groups** specified
-in the [metadata files of studies](<File-Formats.md#cancer-study>) instead
+in the [metadata files of studies](/File-Formats.md#cancer-study) instead
 of corresponding to individual **study identifiers**. Although this will
 result in less roles that need to be added and maintained in Keycloak,
 it does result in group configuration being spread over both Keycloak
@@ -242,7 +242,7 @@ the same as the one for assigning roles to individual users.
 ### Doing a Test Run
 
 Rebuild the WAR file and follow the [Deployment with authentication
-steps](Deploying.md#required-login) using `authenticate=saml`.
+steps](/deployment/deploy-without-docker/Deploying.md#required-login) using `authenticate=saml`.
 
 Then, go to:  [http://localhost:8081/](http://localhost:8081/).
 

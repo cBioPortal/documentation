@@ -120,13 +120,13 @@ The value of the API key is configured in the _portal.properties_ file. You can 
 
 The properties file can be found in `./config/portal.properties`. Which was set up when running `init.sh`.
 
-This properties file allows you to customize your instance of cBioPortal with e.g. custom logos, or point the cBioPortal container to e.g. use an external mysql database. See the [properties](../Customizing-your-instance-of-cBioPortal.md) documentation for a comprehensive overview.
+This properties file allows you to customize your instance of cBioPortal with e.g. custom logos, or point the cBioPortal container to e.g. use an external mysql database. See the [properties](/deployment/customization/Customizing-your-instance-of-cBioPortal.md) documentation for a comprehensive overview.
 
-If you would like to enable OncoKB see [OncoKB data access](../OncoKB-Data-Access.md) for 
+If you would like to enable OncoKB see [OncoKB data access](/deployment/integration-with-other-webservices/OncoKB-Data-Access.md) for 
 how to obtain a data access token. After obtaining a valid token use:
 
 #### Step 4 - Customize cBioPortal setup
-To read more about the various ways to use authentication and parameters for running the cBioPortal web app see the relevant [backend deployment documentation](../Deploying.md#run-the-cbioportal-backend).
+To read more about the various ways to use authentication and parameters for running the cBioPortal web app see the relevant [backend deployment documentation](/deployment/customization/Customizing-your-instance-of-cBioPortal.md).
 
 On server systems that can easily spare 4 GiB or more of memory, set the `-Xms`
 and `-Xmx` options to the same number. This should increase performance of

@@ -62,4 +62,4 @@ docker-compose restart cbioportal
 
 #### Import GRCh38 data
 
-If you are importing GRCh38 data, please remember to set the `reference_genome: hg38` field in the `meta_study.txt` file. See also [cancer study metadata](../File-Formats.md).
+If you are importing GRCh38 data, please remember to set the `reference_genome: hg38` field in the `meta_study.txt` file. See also [cancer study metadata](/File-Formats.md).

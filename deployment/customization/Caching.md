@@ -11,7 +11,7 @@ if they have already been constructed. They would only be constructed for the in
 The portal is configured to use Ehcache or Redis for backend caching. Ehcache supports a hybrid (disk + heap),
 disk-only, and heap-only mode. Redis stores the cache in memory and periodically writes the updated data to disk. Cache
 configuration is specified inside `portal.properties`(more
-information [here](portal.properties-Reference.md#cache-settings).
+information [here](/deployment/customization/portal.properties-Reference.md#cache-settings)).
 
 ## Creating additional caches
 

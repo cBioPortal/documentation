@@ -54,5 +54,3 @@ You must create a `cbioportal` database and a `cgds_test` database within MySQL,
     mysql>  flush privileges;
     Query OK, 0 rows affected (0.00 sec)
 ```
-
-[Next Step: Building From Source](Build-from-Source.md)

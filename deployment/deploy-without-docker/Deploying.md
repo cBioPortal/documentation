@@ -9,7 +9,7 @@ cd src/main/resources
 cp portal.properties.EXAMPLE $HOME/cbioportal/portal.properties
 ```
 
-For more information about the `portal.properties` file, see the [reference](portal.properties-Reference.md) page.
+For more information about the `portal.properties` file, see the [reference](/deployment/customization/Customizing-your-instance-of-cBioPortal.md) page.
 
 Several scripts of cBioPortal use this `portal.properties` file to get info like db connection parameters. You can indicate the folder where this file is with an environment variable:
 
@@ -21,7 +21,7 @@ if your properties file is at `PORTAL_HOME/portal.properties`
 
 ## Run cBioPortal Session Service
 
-The cBioPortal app requires [session service](Architecture-Overview.md). For instructions on how to run this without Docker see https://github.com/cBioPortal/session-service#run-without-docker. Once this is working, update the properties file:
+The cBioPortal app requires [session service](/Architecture-Overview.md#session-service). For instructions on how to run this without Docker see https://github.com/cBioPortal/session-service#run-without-docker. Once this is working, update the properties file:
 
 ```bash
 # session-service url: http://[host]:[port]/[session_service_app]/api/sessions/[portal_instance]/
@@ -44,7 +44,7 @@ There are three main ways to run the portal: without authentication, with option
 
 ### Without authentication
 
-In this mode users are able to use the portal, but they won't be able to save their own virtual studies and groups. See the [optional login section](Deploying.md#optional-login) to enable this.
+In this mode users are able to use the portal, but they won't be able to save their own virtual studies and groups. See the [optional login section](#optional-login) to enable this.
 
 ```bash
 java \
@@ -100,7 +100,7 @@ java \
     portal/target/cbioportal.war
 ```
 
-Change `CHOOSE_DESIRED_AUTHENTICATION_METHOD` to one of `googleplus`, `saml`, `openid`, `ad`, `ldap`. The various methods of authentication are described in the [Authorization and Authentication](cbioportal-deployment/authorization-and-authentication/) section.
+Change `CHOOSE_DESIRED_AUTHENTICATION_METHOD` to one of `googleplus`, `saml`, `openid`, `ad`, `ldap`. The various methods of authentication are described in the [Authorization and Authentication](/deployment/authorization-and-authentication) section.
 
 ### Property configuration
 
@@ -128,6 +128,4 @@ Lastly, open a browser and go to:\
 
 * Each time you modify any java code, you must recompile and redeploy the app.
 * Each time you modify any properties (see customization options), you must restart the app
-* Each time you add new data, you must restart the app or call the `/api/cache` endpoint with a `DELETE` http-request (see [here](portal.properties-Reference.md#flush-caches-with-the-\_apicache\_-endpoint) for more information).
-
-[Next Step: Loading a Sample Study](Load-Sample-Cancer-Study.md)
+* Each time you add new data, you must restart the app or call the `/api/cache` endpoint with a `DELETE` http-request (see [here](/deployment/customization/portal.properties-Reference.md#flush-caches-with-the-_apicache_-endpoint) for more information).

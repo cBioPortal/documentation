@@ -68,7 +68,7 @@ default_cross_cancer_study_list_name=
 
 ### Quick Search (BETA)
 
-![Quick search example](images/previews/quick\_search\_example.png)
+![Quick search example](/images/previews/quick\_search\_example.png)
 
 Enable or disable the quick search with the following:
 
@@ -154,7 +154,7 @@ By default, on an authenticated portal the home page will only show studies for 
 skin.home_page.show_unauthorized_studies=
 ```
 
-If _show\_unauthorized\_studies_ feature has been enabled, a message (template) can be defined by the property below that informs the user of insufficient permissions. This message will appear inside a tooltip when hovering the lock icon next to the study name on the Study Selection page. This message may contain placeholders for study-specific information derived from [study tags data](File-Formats.md#study-tags-file). The information in the study tags JSON file can be accessed using Json Path placeholders. For example `{$.Owner.email}` points to member `{Owner: {email: "me@myself.org"}}`. For the studies that don't have this information available in the study tags, the default message "The study is unauthorized. You need to request access." will be displayed. In addition to the study tags information, the cancer study identifier can be included in the message using {$.studyId} placeholder (does not have to be present in study tags file). For example: skin.home\_page.unauthorized\_studies\_global\_message=You do not have access to this study. You can request access with {$.Owner.email} (please mention the '{$.studyId}' study identifier).
+If _show\_unauthorized\_studies_ feature has been enabled, a message (template) can be defined by the property below that informs the user of insufficient permissions. This message will appear inside a tooltip when hovering the lock icon next to the study name on the Study Selection page. This message may contain placeholders for study-specific information derived from [study tags data](/File-Formats.md#study-tags-file). The information in the study tags JSON file can be accessed using Json Path placeholders. For example `{$.Owner.email}` points to member `{Owner: {email: "me@myself.org"}}`. For the studies that don't have this information available in the study tags, the default message "The study is unauthorized. You need to request access." will be displayed. In addition to the study tags information, the cancer study identifier can be included in the message using {$.studyId} placeholder (does not have to be present in study tags file). For example: skin.home\_page.unauthorized\_studies\_global\_message=You do not have access to this study. You can request access with {$.Owner.email} (please mention the '{$.studyId}' study identifier).
 
 ```
 skin.home_page.unauthorized_studies_global_message=
@@ -193,7 +193,7 @@ survival.show_p_q_values_in_survival_type_table=
 
 ### Set the initial x-axis limit for the survival plot
 
-By default, the initial x-axis limit for a survival plot is the time of the latest event in the data. With this setting, you can make the initial x-axis limit be smaller than that. ![Survival x-axis limit examples](images/previews/survival\_x\_axis\_limit.png)
+By default, the initial x-axis limit for a survival plot is the time of the latest event in the data. With this setting, you can make the initial x-axis limit be smaller than that. ![Survival x-axis limit examples](/images/previews/survival\_x\_axis\_limit.png)
 
 ```
 # Set initial x-axis limit for survival plot (by default, initial limit will be the latest event in the data)
@@ -266,7 +266,7 @@ googleplus.consumer.secret=2jCfg4SPWdGfXF44WC588dK
 
 (note: these are just examples, you need to get your own) You will also need to go to "Google+ API" and click Enable button. In case of problems make sure to enable DEBUG logging for org.springframework.social and org.springframework.security.web.authentication.
 
-To activate password authentication follow the [Deployment with authentication steps](Deploying.md#required-login) and set `authenticate=googleplus`.
+To activate password authentication follow the [Deployment with authentication steps](/deployment/deploy-without-docker/Deploying.md#required-login) and set `authenticate=googleplus`.
 
 In addition, set this property in `portal.properties`:
 
@@ -274,7 +274,7 @@ In addition, set this property in `portal.properties`:
 app.name=cbioportal
 ```
 
-app.name should be set to the name of the portal instance referenced in the "AUTHORITY" column of the "AUTHORITIES" table. See the [User Authorization](User-Authorization.md) for more information.
+app.name should be set to the name of the portal instance referenced in the "AUTHORITY" column of the "AUTHORITIES" table. See the [User Authorization](/deployment/authorization-and-authentication/User-Authorization.md) for more information.
 
 ## OncoKB integration
 
@@ -284,7 +284,7 @@ OncoKB integration can be turned on or off with the following property (default:
 show.oncokb=true|false
 ```
 
-A private token is required to access the OncoKB Data (for details see the section [OncoKB Data Access](OncoKB-Data-Access.md)):
+A private token is required to access the OncoKB Data (for details see the section [OncoKB Data Access](/deployment/integration-with-other-webservices/OncoKB-Data-Access.md)):
 
 ```
 oncokb.token=
@@ -369,7 +369,7 @@ cBioPortal supports 2 formats to add custom annotations for driver and passenger
 1. **cbp\_driver**: This will define whether a mutation is a driver or not.
 2. **cbp\_driver\_tiers**: This can be used to define multiple classes of driver mutations.
 
-These data formats are described in the [cBioPortal MAF specifications](File-Formats.md#extending-the-maf-format).
+These data formats are described in the [cBioPortal MAF specifications](/File-Formats.md#extending-the-maf-format).
 
 **Enabling custom annotations in the OncoPrint**
 
@@ -494,7 +494,7 @@ For general statistics about the cache such as memory usage (not currently imple
 
 **WARNING**: It must be noted that since cache statistics endpoint returns data on cache keys, the endpoint may expose otherwise hidden database query parameters such as sample identifiers, study names, etc. Generally, it is recommended that the endpoint only be turned on during cache-related development for testing. Deployers of a protected portal where users only have authorities to a subset of studies should carefully consider whether or not to turn on the cache statistics endpoint, as it does not filter the results.
 
-For more information on how caching is implemented in cBioPortal refer to the [Caching](Caching.md) documentation.
+For more information on how caching is implemented in cBioPortal refer to the [Caching](/deployment/customization/Caching.md) documentation.
 
 ### Redis
 

@@ -31,5 +31,3 @@ On Ubuntu:  ```sudo apt-get install maven```
 You will need a git client to download the cBioPortal source code.
 
 On Ubuntu:  ```sudo apt-get install git```
-
-[Next Step: Pre-Build Steps](Pre-Build-Steps.md)

@@ -7,7 +7,7 @@ customize the web page cosmetics, such as custom images,
 texts, which tabs are visible, etc.
 Nearly all the skins properties have defaults, which can be overwritten by
 changing the `portal.properties` file located in `$PORTAL_HOME`--see
-[the deployment manual](Deploying.md). If your cBioPortal instance
+[the deployment manual](/deployment/deploy-without-docker/Deploying.md). If your cBioPortal instance
 does not yet contain a `portal.properties` file, you can copy
 `src/main/resources/portal.properties.EXAMPLE` and edit it.
 
@@ -311,7 +311,3 @@ skin.documentation.markdown=false
 If your documentation contains a relative link, cBioPortal will assume it uses the same format and, when clicked, will try to interpret the page as such. If your documentation contains an absolute link, cBioPortal will open it in a new window when clicked.
 Please be aware that the links may be case-sensitive! E.g. https://github.com/cBioPortal/cbioportal/wiki/News.md is not the same as https://github.com/cBioPortal/cbioportal/wiki/news.md
 
-# Custom styling of the patient view's clinical data
-The [Patient View](https://www.cbioportal.org/patient?studyId=lgg_ucsf_2014&caseId=P04) shows several [clinical attributes](File-Formats.md#clinical-data) at the top of the page, e.g. `AGE`, `SEX`:
-![test](../test/end-to-end/screenshots/firefox/patient_view_lgg_ucsf_2014_case_id_P04.png)
-The order, styling and visibility of those [attributes](File-Formats.md#clinical-data) at the top can be changed by editing the [patient view's clinical attributes CSS file](../portal/src/main/webapp/css/patient-view/clinical-attributes.css).
