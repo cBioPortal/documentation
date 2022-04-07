@@ -128,4 +128,4 @@ Lastly, open a browser and go to:\
 
 * Each time you modify any java code, you must recompile and redeploy the app.
 * Each time you modify any properties (see customization options), you must restart the app
-* Each time you add new data, you must restart the app or call the `/api/cache` endpoint with a `DELETE` http-request (see [here](/deployment/customization/portal.properties-Reference.md#flush-caches-with-the-_apicache_-endpoint) for more information).
+* Each time you add new data, you must restart the app or call the `/api/cache` endpoint with a `DELETE` http-request (see [here](/deployment/customization/portal.properties-Reference.md#evict-caches-with-the-apicache-endpoint) for more information).

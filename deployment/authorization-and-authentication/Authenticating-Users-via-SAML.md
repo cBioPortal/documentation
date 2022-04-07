@@ -48,26 +48,26 @@ To get started:
     * ACS (Consumer) URL Validator*:  ^http:\/\/localhost\:8080\/cbioportal\/saml\/SSO$
     * ACS (Consumer) URL*:  http://localhost:8080/saml/SSO
 
-![](images/previews/onelogin-config.png)
+![](/images/previews/onelogin-config.png)
 
 
 * Add at least the parameters: 
     * Email (Attribute)
     * Email (SAML NameID)
 
-![](images/previews/onelogin-config-parameters.png)
+![](/images/previews/onelogin-config-parameters.png)
 
 * Find your user in the "Users" menu
 
-![](images/previews/onelogin-users-search.png)
+![](/images/previews/onelogin-users-search.png)
 
 * Link the SAML app to your user (click "New app" on the **+** icon found on the top right of the "Applications" table to do this - see screenshot below): 
 
-![](images/previews/onelogin-add-app.png)
+![](/images/previews/onelogin-add-app.png)
 
 * Configure these **email** parameters in the Users menu:
 
-![](images/previews/onelogin-users.png)
+![](/images/previews/onelogin-users.png)
  
 
 

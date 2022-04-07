@@ -3,7 +3,7 @@
 We have release procedures for the following scenarios:
 
 1. [cBioPortal community release of code already in production](Release-Procedure.md#cbioportal-community-release-of-code-already-in-production)
-2. [Release with database migration](Release-Procedure.md#Release-with-database-migration)
+2. [Release with database migration](Release-Procedure.md#release-with-database-migration)
 
 ## cBioPortal community release of code already in production
 

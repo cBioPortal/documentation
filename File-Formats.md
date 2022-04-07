@@ -128,7 +128,7 @@ The first four rows of the clinical data file contain tab-delimited metadata abo
     And the second matrix will have lower priority than the first one. 
     If later chart can fit into the first matrix, then its priority will be promoted.
     
-    Please see [here](/deployment/customization/study-view) for more detailed information about how study view utilize priority and how the layout is calculated based on priority.
+    Please see [here](/deployment/customization/Studyview.md) for more detailed information about how study view utilize priority and how the layout is calculated based on priority.
 - Row 5: **The attribute name for the database**: This name should be in upper case.
 - Row 6: This is the first row that contains actual data.
 
@@ -685,8 +685,8 @@ It is possible to manually add columns for defining custom driver annotations. T
 
 The `cbp_driver` column flags the mutation as either driver or passenger. In cBioPortal, passenger mutations are also known as variants of unknown significance (VUS). The `cbp_driver_tiers` column assigns an annotation tier to the mutation, such as "Driver", "Highly actionable" or "Potential drug target". When a tier is selected, mutations with that annotation are highlighted as driver. Both types of custom annotations contain a second column with the suffix `_annotation`, to add a description. This is displayed in the tooltip that appears when hovering over the sample's custom annotation icon in the OncoPrint view.
 
-You can learn more about configuring these annotations in the [portal.properties documentation](portal.properties-Reference.md#custom-annotation). When properly configured, the customized annotations appear in the "Mutation Color" menu of the OncoPrint view: \
-![schreenshot mutation color menu](images/screenshot-mutation-color-menu.png) 
+You can learn more about configuring these annotations in the [portal.properties documentation](/deployment/customization/portal.properties-Reference.md#custom-annotation-of-driver-and-passenger-mutations). When properly configured, the customized annotations appear in the "Mutation Color" menu of the OncoPrint view: \
+![schreenshot mutation color menu](/images/screenshot-mutation-color-menu.png) 
 
 ### Adding your own mutation annotation columns
 Adding additional mutation annotation columns to the extended MAF rows can also be done. In this way, the portal will parse and store your own MAF fields in the database. For example, mutation data that you find on cBioPortal.org comes from MAF files that have been further enriched with information from [mutationassessor.org](https://mutationassessor.org/), which leads to a "Mutation Assessor" column in the [mutation table](https://www.cbioportal.org/index.do?cancer_study_list=acc_tcga&cancer_study_id=acc_tcga&genetic_profile_ids_PROFILE_MUTATION_EXTENDED=acc_tcga_mutations&Z_SCORE_THRESHOLD=2.0&RPPA_SCORE_THRESHOLD=2.0&data_priority=0&case_set_id=acc_tcga_sequenced&case_ids=&patient_case_select=sample&gene_set_choice=user-defined-list&gene_list=ZFPM1&clinical_param_selection=null&tab_index=tab_visualize&Action=Submit).

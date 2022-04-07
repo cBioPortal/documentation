@@ -36,7 +36,7 @@ cBioPortal(
 
 #### rapiclient
 
-Although we recommend to use [cBioPortalData](API-and-API-Clients.md#cBioPortalData) for most use cases, it is possible to connect to the API directly using [rapiclient](https://github.com/bergant/rapiclient):
+Although we recommend to use [cBioPortalData](/API-and-API-Clients.md#cbioportaldata-recommended) for most use cases, it is possible to connect to the API directly using [rapiclient](https://github.com/bergant/rapiclient):
 
 ```
 library(rapiclient)

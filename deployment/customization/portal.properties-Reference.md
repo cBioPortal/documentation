@@ -162,7 +162,7 @@ skin.home_page.unauthorized_studies_global_message=
 
 ### Control the appearance of the settings menu in study view and group comparison that controls custom annotation-based filtering
 
-A settings menu that allows the user to filter alterations in study view and group comparison may be used when [custom driver annotations](File-Formats.md#custom-driver-annotations) were loaded for the study or studies displayed in these sections. This menu will only appear, when setting the property _skin.show\_settings\_menu_ to _true_.
+A settings menu that allows the user to filter alterations in study view and group comparison may be used when [custom driver annotations](/File-Formats.md#custom-driver-annotations) were loaded for the study or studies displayed in these sections. This menu will only appear, when setting the property _skin.show\_settings\_menu_ to _true_.
 
 ```
 skin.show_settings_menu=
@@ -369,7 +369,7 @@ cBioPortal supports 2 formats to add custom annotations for driver and passenger
 1. **cbp\_driver**: This will define whether a mutation is a driver or not.
 2. **cbp\_driver\_tiers**: This can be used to define multiple classes of driver mutations.
 
-These data formats are described in the [cBioPortal MAF specifications](/File-Formats.md#extending-the-maf-format).
+These data formats are described in the [cBioPortal MAF specifications](/File-Formats.md#extended-maf-format).
 
 **Enabling custom annotations in the OncoPrint**
 
@@ -460,7 +460,7 @@ cBioPortal is supported on the backend with Ehcache or Redis. These caches are c
 
 The cache type is set using `persistence.cache_type`. Valid values are `no-cache`, `redis` (redis), `ehache-heap` (ehcache heap-only), `ehache-disk` (ehcache disk-only), and `ehache-hybrid` (ehcache disk + heap). By default, `persistence.cache_type` is set to `no-cache` which disables the cache. When the cache is disabled, no responses will be stored in the cache.
 
-:warning: the 'redis' caching option will likely cause a conflict when installing the portal in a Tomcat installation which uses redisson for session management. If you plan to deploy cbioportal to such a system, avoid the 'redis' caching option for `persistence.cache_type` and be sure to build cbioportal.war with the maven option `-Dexclude-redisson` (see [Building with Maven](Build-from-Source.md#building-with-maven)).
+:warning: the 'redis' caching option will likely cause a conflict when installing the portal in a Tomcat installation which uses redisson for session management. If you plan to deploy cbioportal to such a system, avoid the 'redis' caching option for `persistence.cache_type` and be sure to build cbioportal.war with the maven option `-Dexclude-redisson` (see [Building with Maven](/deployment/deploy-without-docker/Build-from-Source.md#building-with-maven)).
 
 ```
 persistence.cache_type=[no-cache or ehache-heap or ehcache-disk or ehcache-hybrid or redis]
@@ -547,7 +547,7 @@ ehcache.static_repository_cache_one.max_mega_bytes_local_disk=
 
 For more information on Ehcache, refer to the official documentation [here](https://www.ehcache.org/documentation/3.7/index.html)
 
-## Evict caches with the _/api/cache_ endpoint
+## Evict caches with the /api/cache endpoint
 
 `DELETE` http requests to the `/api/cache` endpoint will flush the cBioPortal caches, and serves as an alternative to restarting the cBioPortal application.
 

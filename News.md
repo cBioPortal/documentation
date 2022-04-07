@@ -247,7 +247,7 @@ The normals samples RNA-Seq V2 expression data were curated from [GDC](https://g
 
 ## June 9, 2020
 
-*   **Enhancement**: using [OQL](/Onco-Query-Language.md#oql-modifiers) to query for mutations based on a protein position range. [example](https://www.cbioportal.org/results/mutations?Action=Submit&RPPA_SCORE_THRESHOLD=2.0&Z_SCORE_THRESHOLD=2.0&cancer_study_list=msk_impact_2017&case_set_id=msk_impact_2017_cnaseq&data_priority=0&gene_list=TP53%253AMUT_(95-288*)&geneset_list=%20&genetic_profile_ids_PROFILE_COPY_NUMBER_ALTERATION=msk_impact_2017_cna&genetic_profile_ids_PROFILE_MUTATION_EXTENDED=msk_impact_2017_mutations&profileFilter=0&tab_index=tab_visualize)
+*   **Enhancement**: using [OQL](/user-guide/oql.md#oql-modifiers) to query for mutations based on a protein position range. [example](https://www.cbioportal.org/results/mutations?Action=Submit&RPPA_SCORE_THRESHOLD=2.0&Z_SCORE_THRESHOLD=2.0&cancer_study_list=msk_impact_2017&case_set_id=msk_impact_2017_cnaseq&data_priority=0&gene_list=TP53%253AMUT_(95-288*)&geneset_list=%20&genetic_profile_ids_PROFILE_COPY_NUMBER_ALTERATION=msk_impact_2017_cna&genetic_profile_ids_PROFILE_MUTATION_EXTENDED=msk_impact_2017_mutations&profileFilter=0&tab_index=tab_visualize)
 ![image](https://user-images.githubusercontent.com/840895/84427197-83ce6b80-abf2-11ea-9d18-3a4f4524e545.png)
 
 *   **New Feature**: you can now send the OncoPrint data to the [OncoPrinter tool](https://www.cbioportal.org/oncoprinter) for customization.
@@ -552,7 +552,7 @@ as appear in the url of a query submitted from the homepage.
      *   [Cholangiocarcinoma (MSK, Clin Cancer Res 2018)](https://www.cbioportal.org/study?id=chol_msk_2018) *195 samples*
  *  **Updated data** for [The Metastatic Breast Cancer Project (Provisional, October 2018)](https://www.cbioportal.org/study?id=brca_mbcproject_wagle_2017) *237 samples*
 ## January 10, 2019
-* cBioPortal now supports queries for driver mutations, fusions and copy number alterations as well as germline/somatic mutations using [Onco Query Language (OQL)](/Onco-Query-Language.md) -- see [example](https://www.cbioportal.org/results/oncoprint?session_id=5c23ea81e4b05228701f9d44)
+* cBioPortal now supports queries for driver mutations, fusions and copy number alterations as well as germline/somatic mutations using [Onco Query Language (OQL)](/user-guide/oql.md) -- see [example](https://www.cbioportal.org/results/oncoprint?session_id=5c23ea81e4b05228701f9d44)
 * A new [tutorial](https://www.cbioportal.org/tutorials) explores OQL and provides examples of how OQL can be a powerful tool to refine queries.
 
 
@@ -1207,12 +1207,12 @@ Several new features, including:
 *   Redesigned and streamlined user interface, based on user feedback and usability testing.
 *   Advanced support for gene-specific alterations. For example, users can now view mutations within TP53, and ignore copy number alterations, or only view amplifications of EGFR, and ignore deletions.
 *   Improved performance.
-*   [Frequently Asked Questions](FAQ) document released.
+*   [Frequently Asked Questions](/user-guide/faq.md) document released.
 *   Updated ~~Video Tutorial~~ (update: old link no longer functional. Now see: [YouTube](https://www.youtube.com/results?search_query=cbioportal)
 
 ## November 4, 2010
 
-*   Enhanced [Oncoprints](https://www.cbioportal.org/faq.jsp#what-are-oncoprints), enabling users to quickly visualize genomic alterations across many cases. Oncoprints now also work in all major browsers, including Firefox, Chrome, Safari, and Internet Explorer.
+*   Enhanced [Oncoprints](/user-guide/faq.md#what-are-oncoprints), enabling users to quickly visualize genomic alterations across many cases. Oncoprints now also work in all major browsers, including Firefox, Chrome, Safari, and Internet Explorer.
 *   Official release of our [Web Interface](https://www.cbioportal.org/web_api.jsp), enabling programmatic access to all data.
 *   Official release of our [R Package](https://www.cbioportal.org/cgds_r.jsp), enabling programmatic access to all data from the R platform for statistical computing.
     ![OncoPrints](https://user-images.githubusercontent.com/1334004/47188322-9f8e4b00-d305-11e8-9fae-ca188de91267.png)

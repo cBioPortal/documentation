@@ -22,7 +22,7 @@ system you are using.
 ### Redis
 
 Cache initialization is handled inside
-the [CustomRedisCachingProvider](../persistence/persistence-api/src/main/java/org/cbioportal/persistence/util/CustomRedisCachingProvider.java)
+the [CustomRedisCachingProvider](https://github.com/cBioPortal/cbioportal/blob/master/persistence/persistence-api/src/main/java/org/cbioportal/persistence/util/CustomRedisCachingProvider.java)
 . To create additional caches (e.g creating a cache specifically for clinical data), new code must be added to
 the `CustomRedisCachingProvider`.
 
@@ -34,7 +34,7 @@ manager.createCache(appName + "ClinicalDataCache", config);
 ```
 
 You also need to create a new cache resolver
-in [RedisConfig.java](../persistence/persistence-api/src/main/java/org/cbioportal/persistence/config/RedisConfig.java):
+in [RedisConfig.java](https://github.com/cBioPortal/cbioportal/blob/master/persistence/persistence-api/src/main/java/org/cbioportal/persistence/config/RedisConfig.java):
 
 ```
 @Bean
@@ -83,7 +83,7 @@ caches.put("ClinicalDataCache", ClinicalDataCacheConfiguration);
 ```
 
 You also need to create a new cache resolver
-in [EhCacheConfig.java](../persistence/persistence-api/src/main/java/org/cbioportal/persistence/config/EhCacheConfig.java):
+in [EhCacheConfig.java](https://github.com/cBioPortal/cbioportal/blob/master/persistence-api/src/main/java/org/cbioportal/persistence/config/EhCacheConfig.java):
 
 ```
 @Bean
@@ -101,9 +101,9 @@ public String getDataFromClinicalDataRepository(String param) {}
 ```
 
 Additionally, new properties for setting cache sizes should be added to `portal.properties` and loaded into
-the [CustomEhcachingProvider](../persistence/persistence-api/src/main/java/org/cbioportal/persistence/util/CustomEhcachingProvider.java)
+the [CustomEhcachingProvider](https://github.com/cBioPortal/cbioportal/blob/master/persistence/persistence-api/src/main/java/org/cbioportal/persistence/util/CustomEhcachingProvider.java)
 . Alternatively, values may be hardcoded directly
-inside [CustomEhcachingProvider](../persistence/persistence-api/src/main/java/org/cbioportal/persistence/util/CustomEhcachingProvider.java)
+inside [CustomEhcachingProvider](https://github.com/cBioPortal/cbioportal/blob/master/persistence/persistence-api/src/main/java/org/cbioportal/persistence/util/CustomEhcachingProvider.java)
 .
 
 For more information on cache templates and the Ehcache xml configuration file, refer to the
@@ -122,7 +122,7 @@ whether a user has access to the data of a particular sample list or molecular p
 By default, the user-authorization cache is implemented as a HashMap that is populated when cBioPortal is started. This
 implementation allows for very fast response times of user-permission evaluation.
 
-The user-authorization cache can be delegated to the Spring-managed caching solution by setting the [cache.cache-map-utils.spring-managed](portal.properties-Reference.md#externalize-study-data-for-user-authorization-evaluation)
+The user-authorization cache can be delegated to the Spring-managed caching solution by setting the [cache.cache-map-utils.spring-managed](portal.properties-Reference.md#cache-settings)
 to _true_. Depending on the implementation, this may add a delay to any data request that is caused by the additional consultation
 of the external cache. This configuration should only be used where a central caching solution is required or no
 instance/container-specific local caches are allowed. For example, cache eviction via the `api/cache` endpoint in a Kubernetes
