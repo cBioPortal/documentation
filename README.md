@@ -1,64 +1,67 @@
-# Home
+# Welcome to the documentation for cBioPortal!
 
-Welcome to the documentation for cBioPortal! Below you can find an index of all available materials to help you use an existing portal, maintain a local instance, upload data, or contribute code. For details on contributing code changes and pull-requests to cBioPortal, please see our [CONTRIBUTING Doc](https://github.com/cBioPortal/cbioportal/blob/master/CONTRIBUTING.md).
-
-We also maintain an active [list of RFCs (Requests for Comments)](RFC-List.md) where we describe new features and solicit community feedback.
+We've organized this site by the different roles in the cBioPortal community.
 
 <div class="homeList">
-
-<style>
-    .homeLinks td { 
-        border:none !important;
-        padding-bottom:40px !important;
-        vertical-align: top;
-        font-size:18px;
-        color:orange;
-    }
-</style>
-
-<table border="0" class="homeLinks">
-    <tr>
-         <td>
-            <a href="user-guide/">
-            <img src="images/user-guide.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
-            </a>
-        </td>
-        <td>
-            <a href="user-guide/">A guide to querying and performing analysis/visualization on cBioPortal</a>
-        </td>
-    </tr>
-    <tr>
-         <td>
+            <div>
+                <a href="user-guide/">
+                <img src="images/user-guide.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
+                </a>
+                <a href="user-guide/">Portal User</a>
+            </div>
+        
+            <div>
             <a href="web-api-and-clients/">
             <img src="images/api.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
-            </a>
-        </td>
-        <td>
-            <a href="web-api-and-clients/">Guide to programmatic use of cBioPortal's public api via REST or clients</a>
-        </td>
-    </tr>
-    <tr>
-         <td>
+            </a> 
+            <a href="web-api-and-clients/">API User</a>
+            </div>
+       
+            <div>
             <a href="deployment/">
             <img src="images/deployment.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
             </a>
-        </td>
-        <td>
-            <a href="deployment/">Documentation for deploying and maintaining your own instance of cBioPortal</a>
-        </td>
-    </tr>
-    <tr>
-         <td>
+            <a href="deployment/">Instance Maintainer</a>
+            </div>
+        
+            <div>
             <a href="development/">
             <img src="images/develop.png" width="125" height="125" alt="User guide  free icon" title="User guide free icon">
             </a>
-        </td>
-        <td>
-            <a href="development/">Guide for making open source contributors to cBioPortal codebase</a>
-        </td>
-    </tr>
-
-</table>
+            <a href="development/">Developer</a>
+            </div>
 
 </div>
+
+
+<div id="feedback">
+<h3><strong>Feedback? Questions?</strong></h3>
+<br />
+
+[!button cBioPortal Google Group](https://groups.google.com/g/cbioportal)
+
+<hr />
+
+:::rfclist
+We maintain an active [list of RFCs (Requests for Comments)](RFC-List.md) where we describe new features and solicit community feedback.
+:::
+
+</div>
+
+<hr />
+
+<h3>Quick Links</h3>
+
+- [FAQ](user-guide/faq.md)
+- [Tutorials](https://www.cbioportal.org/tutorials)
+- [API documentation](API-and-API-Clients.md)
+
+
+<script>
+setTimeout(function(){
+    document.querySelectorAll("#docs-sidebar-right .simplebar-content")[0].appendChild(document.getElementById("feedback"));
+},500);
+</script>
+
+
 
