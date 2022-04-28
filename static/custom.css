@@ -31,3 +31,7 @@
 .rfclist a {
     color:rgb(66 132 251/var(--tw-text-opacity));
 }
+
+#file-not-found {
+    display:none;
+}
