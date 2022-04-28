@@ -16,7 +16,10 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: retypeapp/action-build@latest
-
+        env:
+          INPUT_OVERRIDE_BASE="{ \"url\": \"cbioportal.github.io/documentation\" }"
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
+        env:
+          INPUT_OVERRIDE_BASE="{ \"url\": \"cbioportal.github.io/documentation\" }"
