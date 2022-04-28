@@ -9,7 +9,7 @@
   * [Page Specific Resources](user-guide/by-page.md)
   * [OQL](user-guide/oql.md)
   * [News](News.md)
-* [Web API and API Clients](web-API-and-API-Clients.md)
+* [Web API and API Clients](web-API-and-Clients.md)
 * [Deployment](deployment/README.md)
   * [Architecture overview](Architecture-Overview.md)
   * [Hardware Requirements](Hardware-Requirements.md)
