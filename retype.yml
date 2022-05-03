@@ -1,6 +1,6 @@
 input: .
 output: .retype
-url: cbioportal.github.io/documentation/
+#url: cbioportal.github.io/documentation/
 branding:
   title: cBioPortal Docs
   logo: images/cbio-logo.png
