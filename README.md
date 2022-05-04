@@ -1,3 +1,7 @@
+This documentation site is built using a site generator called [Retype](https://retype.com) (similar to Gitbook) which generates a searchable site from markdown files.
+
+It is hosted using github pages (configured in settings of repository) and will regenerate upon update to master branch.
+
 To edit and run the documentation site locally: 
 
 1. [Install Retype using these instructions](https://retype.com/#quick-start)
