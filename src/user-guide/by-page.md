@@ -1,9 +1,19 @@
 ## Resources by Page
+
+### Homepage
+* Webinar: Introduction to cBioPortal [youtube.com](https://www.youtube.com/watch?v=fPIAxH--cSo) | [bilibili.com](https://www.bilibili.com/video/BV1tf4y1m7Lp)
+* How-To Video: Explore the data in a study [youtube.com](https://www.youtube.com/watch?v=N8ffDgkqDWc)
+* Tutorial Slides: Single Study Exploration [Google slides](https://www.cbioportal.org/tutorials#single-study-exploration) | [PDF](https://raw.githubusercontent.com/cBioPortal/cbioportal/master/docs/tutorials/cBioPortal%20Tutorial%201%20Single%20Study%20Exploration.pdf)
+* How-To Video: Run a query for genes of interest [youtube.com](https://www.youtube.com/watch?v=MH-kY5usA70)
+* Tutorial Slides: Single Study Query [Google slides](https://www.cbioportal.org/tutorials#single-study-query) | [PDF](https://raw.githubusercontent.com/cBioPortal/cbioportal/master/docs/tutorials/cBioPortal%20Tutorial%202%20Single%20Study%20Query.pdf)
+
+
 ### Study View
 * Tutorial Slides: Single Study Exploration [Google slides](https://www.cbioportal.org/tutorials#single-study-exploration) | [PDF](https://raw.githubusercontent.com/cBioPortal/cbioportal/master/docs/tutorials/cBioPortal%20Tutorial%201%20Single%20Study%20Exploration.pdf)
 * Webinar: Introduction to cBioPortal [youtube.com](https://www.youtube.com/watch?v=fPIAxH--cSo&t=760s) | [bilibili.com](https://www.bilibili.com/video/BV1tf4y1m7Lp)
 * How-To Video: Comparing samples based on expression level of a gene [youtube.com](https://www.youtube.com/watch?v=HTiKUXk0j0s)
 * Tutorial Slides: Virtual Studies [Google slides](https://www.cbioportal.org/tutorials#virtual-studies) | [PDF](https://raw.githubusercontent.com/cBioPortal/cbioportal/master/docs/tutorials/cBioPortal%20Tutorial%204%20Virtual%20Studies.pdf)
+* How-To Video: Explore the data in a study [youtube.com](https://www.youtube.com/watch?v=N8ffDgkqDWc)
 
 
 ### Group Comparison
@@ -15,6 +25,7 @@
 #### General
 * Tutorial Slides: Single Study Query [Google slides](https://www.cbioportal.org/tutorials#single-study-query) | [PDF](https://raw.githubusercontent.com/cBioPortal/cbioportal/master/docs/tutorials/cBioPortal%20Tutorial%202%20Single%20Study%20Query.pdf)
 * Webinar: Introduction to cBioPortal [youtube.com](https://www.youtube.com/watch?v=fPIAxH--cSo&t=1462s) | [bilibili.com](https://www.bilibili.com/video/BV1tf4y1m7Lp)
+* How-To Video: Run a query for genes of interest [youtube.com](https://www.youtube.com/watch?v=MH-kY5usA70)
 
 
 #### OQL
